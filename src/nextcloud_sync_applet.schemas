@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/system/maemo/sync/nextcloud/sync-path</key>
+      <applyto>/system/maemo/sync/nextcloud/sync-path</applyto>
+      <owner>nextcloud-sync</owner>
+      <type>string</type>
+      <default>/home/user/Nextcloud</default>
+      <locale name="C">
+        <short>Directory to watch for syncing</short>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/system/maemo/sync/nextcloud/host</key>
+      <applyto>/system/maemo/sync/nextcloud/host</applyto>
+      <owner>nextcloud-sync</owner>
+      <type>string</type>
+      <default>https://some.nextcloud.host</default>
+      <locale name="C">
+        <short>Nextcloud instance host</short>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/system/maemo/sync/nextcloud/username</key>
+      <applyto>/system/maemo/sync/nextcloud/username</applyto>
+      <owner>nextcloud-sync</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+        <short>Nextcloud instance username</short>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/system/maemo/sync/nextcloud/password</key>
+      <applyto>/system/maemo/sync/nextcloud/password</applyto>
+      <owner>nextcloud-sync</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+        <short>Nextcloud instance password</short>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/system/maemo/sync/nextcloud/autosync</key>
+      <applyto>/system/maemo/sync/nextcloud/autosync</applyto>
+      <owner>nextcloud-sync</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short>Automatically sync on changes</short>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>
