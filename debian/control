@@ -1,0 +1,16 @@
+Source: nextcloud-sync
+Section: sync
+Priority: optional
+Maintainer: Ivan J. <parazyd@dyne.org>
+Build-Depends:
+ debhelper-compat (= 10),
+ libhildon1-dev,
+ libosso-dev,
+ hildon-control-panel-dev,
+ libgconf2-dev,
+Standards-Version: 4.3.0
+
+Package: nextcloud-sync
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Control panel plugin and daemon for Nextcloud file sync
